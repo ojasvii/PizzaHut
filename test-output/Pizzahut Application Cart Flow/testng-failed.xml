@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Pizzahut Application Cart Flow]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="pizzahut001(failed)">
+    <parameter name="address" value="Rajouri Garden Metro Station "/>
+    <parameter name="name" value="Ojasvii Pratap Singh"/>
+    <parameter name="mobile" value="9997038166"/>
+    <parameter name="email" value="ojasvi.pratap17@gmail.com"/>
+    <classes>
+      <class name="stepDefinition.testNG">
+        <methods>
+          <include name="pizzaAddItemToBasketFlow" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- stepDefinition.testNG -->
+    </classes>
+  </test> <!-- pizzahut001(failed) -->
+</suite> <!-- Failed suite [Pizzahut Application Cart Flow] -->

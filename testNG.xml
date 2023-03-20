@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Pizzahut Application Cart Flow">
+ <test name="pizzahut001" >
+ <parameter name="address" value="Rajouri Garden Metro Station "></parameter>
+ <parameter name="name" value="Ojasvii Pratap Singh"></parameter>
+ <parameter name="mobile" value="9997038166"></parameter>
+ <parameter name="email" value="ojasvi.pratap17@gmail.com"></parameter>
+ <classes>
+ <class name="stepDefinition.testNG" />
+ </classes>
+ </test>
+</suite>
